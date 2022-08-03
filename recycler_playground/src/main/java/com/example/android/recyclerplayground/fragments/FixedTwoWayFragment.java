@@ -21,7 +21,7 @@ public class FixedTwoWayFragment extends RecyclerFragment {
     @Override
     protected RecyclerView.LayoutManager getLayoutManager() {
         FixedGridLayoutManager manager = new FixedGridLayoutManager();
-        manager.setTotalColumnCount(10);
+        manager.setTotalColumnCount(3);
 
         return manager;
     }
