@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.view.ViewParent
+import android.widget.AdapterView
 import android.widget.FrameLayout
 import android.widget.LinearLayout
 import androidx.annotation.IdRes
@@ -1327,7 +1328,7 @@ abstract class BaseQuickAdapter<T, VH : BaseViewHolder>
         this.mSpanSizeLookup = spanSizeLookup
     }
 
-    fun setOnItemClickListener(listener: OnItemClickListener?) {
+    fun setOnItemClickListener(listener: AdapterView.OnItemClickListener?) {
         this.mOnItemClickListener = listener
     }
 
