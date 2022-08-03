@@ -56,12 +56,12 @@ public class MainActivity extends AppCompatActivity {
         TestAdapter adapter = new TestAdapter();
         rv.setAdapter(adapter);
         adapter.setOnItemClickListener((adapter1, view1, position) -> {
-            Toast.makeText(this, "点击了位置：" + position, Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this, "点击了位置：" + position, Toast.LENGTH_SHORT).show();
         });
         //长按删除数据
         adapter.setOnItemLongClickListener((adapter12, view12, position) -> {
-            Toast.makeText(this, "删除了位置：" + position, Toast.LENGTH_SHORT).show();
-            adapter12.removeAt(position);
+//            Toast.makeText(this, "删除了位置：" + position, Toast.LENGTH_SHORT).show();
+//            adapter12.removeAt(position);
             return true;
         });
 

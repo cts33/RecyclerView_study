@@ -8,4 +8,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "RecyclerView_study"
 include ':app'
+//include ':library'
 include ':pagergridlayoutmanager'
+include ':recycler_playground'

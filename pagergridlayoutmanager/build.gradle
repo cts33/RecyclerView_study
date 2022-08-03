@@ -16,5 +16,7 @@ android {
 
 dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
+//    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7'
+//    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7'
 }
 
